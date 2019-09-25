@@ -13,5 +13,12 @@ plt.ylabel('some numbers')
 
 plt.show()
 
+plt.plot(x,y + noise, 'c.')
+plt.plot(x,y, 'g-')
+plt.ylabel('some numbers')
+
+
+plt.show()
+
 
 
