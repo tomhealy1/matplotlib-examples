@@ -9,7 +9,7 @@ x = np.random.normal(0.0, 1.0, 10000)
 plt.hist(x,bins=20)
 
 plt.subplot(1, 2, 2)
-x = np.random.normal(-3.0, 3.0, 10000)
+x = np.random.uniform(-3.0, 3.0, 10000)
 plt.hist(x)
 
 plt.show()
